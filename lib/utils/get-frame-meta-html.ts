@@ -23,6 +23,7 @@ const getFrameMetaHTML = ({
           <meta property="og:title" content="${title}">
           <meta property="og:image" content="${imageUrl}">
           <meta name="fc:frame" content="vNext">
+           <meta name="fc:frame:image:aspect_ratio" content="1.91:1" />
           <meta name="fc:frame:image" content="${imageUrl}">
           <meta name="fc:frame:post_url" content="${postUrl}">
           ${buttonsMetadata}
