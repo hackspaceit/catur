@@ -8,6 +8,7 @@ export default function Page() {
       <head>
         <title>Onframe Chess</title>
         <meta property="og:title" content={title} />
+        <meta name="fc:frame:image:aspect_ratio" content="1.91:1" />
         <meta property="og:image" content="https://onframe-chess.vercel.app/static/og/home.png" />
         <meta name="fc:frame" content="vNext" />
         <meta name="fc:frame:image" content="https://onframe-chess.vercel.app/static/og/home.png" />
