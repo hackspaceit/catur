@@ -9,9 +9,9 @@ export default function Page() {
         <title>Onframe Chess</title>
         <meta property="og:title" content={title} />
         <meta name="fc:frame:image:aspect_ratio" content="1.91:1" />
-        <meta property="og:image" content="https://onframe-chess.vercel.app/static/og/home.png" />
+        <meta property="og:image" content="/static/og/home.png" />
         <meta name="fc:frame" content="vNext" />
-        <meta name="fc:frame:image" content="https://onframe-chess.vercel.app/static/og/home.png" />
+        <meta name="fc:frame:image" content="/static/og/home.png" />
         <meta
           name="fc:frame:post_url"
           content={`${process.env.BASE_URL}/api/move?state=${encodeURIComponent(STARTING_POSITION)}&page=0&init=1`}
